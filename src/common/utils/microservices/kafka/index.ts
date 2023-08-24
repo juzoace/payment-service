@@ -10,3 +10,11 @@ export enum KFK_GROUPS {
   ORDER_GROUP = "ORDER_GROUP",
   PAYMENT_GROUP = "PAYMENT_GROUP"
 }
+
+export enum KFK_NAMES {
+  ORDER_SERVICE = "ORDER_SERVICE",
+}
+
+export enum PaymentEvents {
+  PAYMENT_ORDER_CREATION = "payment.service.payment-order-creation"
+}
